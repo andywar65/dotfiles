@@ -1,0 +1,25 @@
+[user]
+	name = andywar65
+	email = andy.war1965@gmail.com
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    frag = magenta bold
+    meta = yellow bold
+    new = green bold
+    old = red bold
+    whitespace = red reverse
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[help]
+    autoCorrect = prompt
+[init]
+	defaultBranch = main
