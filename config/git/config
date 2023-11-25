@@ -23,3 +23,6 @@
     autoCorrect = prompt
 [init]
 	defaultBranch = main
+
+[alias]
+    u = "!f() { git add --update \"$@\" && git status; }; f"
